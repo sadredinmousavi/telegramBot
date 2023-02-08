@@ -1,0 +1,141 @@
+switch ($lang) {
+            case 'fa':
+                $strings = array(
+                    'menu_intro'     => 'ãäæí ÇÕáí :',
+                    'menu_help'      => 'ÑÇåäãÇ',
+                    'menu_language'  => 'ÒÈÇä',
+                    'menu_banner'    => 'ÈäÑ',
+                    'menu_wallet'    => 'ÏÑíÇÝÊ/ÑÏÇÎÊ ÓÇÊæÔí',
+                    'menu_myscore'   => '˜íÝ æá',
+                    'menu_undefined' => 'ÏÓÊæÑ äÇ ãÚÊÈÑ' .PHP_EOL . 'áØÝÇ ÇÒ ãäæ ÇÓÊÝÇÏå ˜ä æ íÇ ÑÇåäãÇ Ñæ ÈÒä',
+                    //
+                    'welcome'        => 'Èå' .'%s' .'ÎæÔ ÂãÏíÏ' .json_decode('"\uD83C\uDF39"') .PHP_EOL,
+                    //
+                    'setlang_intro'  => 'áØÝÇ ÒÈÇä ÎæÏ ÑÇ ÇäÊÎÇÈ ˜äíÏ.' .PHP_EOL .'ÈÑÇí ÈÇÒÔÊ ÇÒ ÏÓÊæÑ' .' /cancel ' .'ÇÓÊÝÇÏå ˜äíÏ.',
+                    'setlang_skey'   => 'áØÝÇ ÊäåÇ ÇÒ ˜íÈæÑÏ ÒíÑ ÇÓÊÝÇÏå ˜äíÏ.',
+                    'setlang_set'    => 'ÊäÙíãÇÊ ÈÇ ãæÝÞíÊ ÇäÌÇã ÔÏ.',
+                    'setlang_fa'     => 'ÝÇÑÓí',
+                    'setlang_en'     => 'English',
+                    'setlang_sp'     => 'Espa?ol',
+                    //
+                    'banner_text'    => 'Êæí íä ÑÈÇÊ ãíÊæäí  ÈíÊ ˜æíä Èå ÏÓÊ ÈíÇÑí.' .PHP_EOL .'%s',
+                    //
+                    'help_intro'     => 'í˜ ÑÇåäãÇí ÏÑ ÑÇÈØå ÈÇ ÓÇÊæÔí æ ÈíÊ ˜æíä',
+                    //
+                    'cancel_nth'     => 'ÚãáíÇÊí ÈÑÇí ˜äÓá ˜ÑÏä æÌæÏ äÏÇÑÏ.',
+                    'cancel_sth'     => 'ÚãáíÇÊ' .' %s ' .'˜äÓá ÔÏ.',
+                    //
+                    'myscore_intro'  => 'ÏÑ Çíä ÈÎÔ ãÌãæÚ ÊÚÏÇÏ ÓÇÊæÔí ˜å ÊÇ ˜äæä ÌãÚ ÂæÑí ˜ÑÏå ÇíÏ äÔÇä ÏÇÏå ãí ÔæÏ.' .PHP_EOL
+            			                .'Úãá˜ÑÏ ÔãÇ ÊÇ ÇáÇä :' .PHP_EOL
+                                        .PHP_EOL . 'ãÌãæÚ ÓÇÊæÔí ÏÑ ÍÓÇÈ ÔãÇ : ' .'%d'
+                                        .PHP_EOL . 'ÇÝÑÇÏ ÇÖÇÝå ÔÏå : ' .'%d',
+                    //
+                    'wallet_intro'              => 'ÏÑ Çíä ÞÓãÊ ãíÊæÇäíÏ ÓÇÊæÔí ÑæÒÇäå ÎæÏ ÑÇ ÏÑíÇÝÊ ˜äíÏ.' .PHP_EOL .'ÏÑ ÕæÑÊí ˜å ÓÇÊæÔí ÔãÇ Èå ÍÏ ÎÇÕí ÈÑÓÏ Çã˜Çä ÈÑÏÇÔÊ ÇÒ ØÑíÞ ˜ÇÑÊ Èå ˜ÇÑÊ ÏÇÑíÏ.' .PHP_EOL .PHP_EOL .'áØÝÇ í˜í ÇÒ ÚãáíÇÊ ÒíÑ ÑÇ ÇäÊÎÇÈ ˜äíÏ' .PHP_EOL .'ÈÑÇí ÈÇÒÔÊ ÇÒ ÏÓÊæÑ' .' /cancel ' .'ÇÓÊÝÇÏå ˜äíÏ.',
+                    'wallet_intro_skey'         => 'áØÝÇ í˜í ÇÒ ÚãáíÇÊ ÒíÑ ÑÇ ÇäÊÎÇÈ ˜äíÏ' .PHP_EOL .'ÈÑÇí ÈÇÒÔÊ ÇÒ ÏÓÊæÑ' .' /cancel ' .'ÇÓÊÝÇÏå ˜äíÏ.',
+                    'wallet_withdraw_button'    => 'ÊÓæíå ÍÓÇÈ',
+                    'wallet_getfree_button'     => 'ÓÇÊÆÔí ÑæÒÇäå',
+                    'wallet_withdraw_intro'     => 'í˜ ÈåÇäå ˜å Èå ÔãÇ ÓÇÊæÔí äÏåíã.',
+                    'wallet_getfree_intro'      => 'ØÈÞ ãÍÇÓÈÇÊ ÇãÑæÒ' .'%d' .'ÓÇÊæÔí ÞÇÈá ÇÎÊÕÇÕ Èå ÔãÇ ÇÓÊ.' .PHP_EOL .'ÈÑÇí ÈÑÏÇÔÊ ÇÒ Ï˜ãå ÒíÑ ÇÓÊÝÇÏå ˜äíÏ.' .PHP_EOL .'ÈÑÇí ÈÇÒÔÊ ÇÒ ÏÓÊæÑ' .' /cancel ' .'ÇÓÊÝÇÏå ˜äíÏ.',
+                    'wallet_getfree_intro_skey' => 'ÈÑÇí ÈÑÏÇÔÊ ÇÒ Ï˜ãå ÒíÑ ÇÓÊÝÇÏå ˜äíÏ.' .PHP_EOL .'ÈÑÇí ÈÇÒÔÊ ÇÒ ÏÓÊæÑ' .' /cancel ' .'ÇÓÊÝÇÏå ˜äíÏ.',
+                    'wallet_getfree_intro_butt' => 'ÈÑÏÇÔÊ',
+                    'wallet_getfree_success'    => '%d' .' ÓÇÊæÔí Èå ÍÓÇÈ ÔãÇ ÇÖÇÝå ÔÏ. ' .PHP_EOL .'ãæÌæÏí ÞÈáí ÔãÇ : ' .'%d' .PHP_EOL .'ãæÌæÏí ÝÚáí ÔãÇ : ' .'%d' .PHP_EOL .'ÈÑÇí ãÔÇåÏå ãæÌæÏí ÇÒ ÏÓÊæÑ' .'"%s"' .'ÇÓÊÝÇÏå ˜äíÏ.',
+                    'wallet_getfree_nomember'   => 'ÈÑÇí ÏÑíÇÝÊ ÓÇÊæÔí áÇÒã ÇÓÊ ÊÇ ÏÑ  ˜ÇäÇá ÒíÑ ÚÖæ ÈÇÔíÏ.'  .PHP_EOL .'Ó ÇÒ ÚÖæ ÔÏä ãÌÏÏÇ Ï˜ãå ÒíÑ ÑÇ ÝÔÇÑ ÏåíÏ' .PHP_EOL .PHP_EOL .'%s',
+                    'wallet_getfree_gotbefore'  => 'ÔãÇ ÓÇÊæÔí ÇãÑæÒ ÎæÏ ÑÇ ÏÑíÇÝÊ ˜ÑÏíÏ. áØÝÇ ãÌÏÏÇ ÝÑÏÇ ãÑÇÌÚå ˜äíÏ.',
+                    //
+                );
+                break;
+
+            case 'en':
+                $strings = array(
+                    'menu_intro'     => 'Main menu :',
+                    'menu_help'      => 'Help',
+                    'menu_language'  => 'Language',
+                    'menu_banner'    => 'banner',
+                    'menu_wallet'    => 'Receive / pay Satoshi',
+                    'menu_myscore'   => 'myscore',
+                    'menu_undefined' => 'Invalid command' .PHP_EOL . 'Please use the menu or click Help',
+                    //
+                    'welcome'        => 'to' .'%s' .'welcome' .json_decode('"\uD83C\uDF39"') .PHP_EOL,
+                    //
+                    'setlang_intro'  => 'Please select your language.' .PHP_EOL .'Use the' .' /cancel ' .'command to return.',
+                    'setlang_skey'   => 'Please use the following keyboard only .',
+                    'setlang_set'    => 'Settings changed successfully.',
+                    'setlang_fa'     => 'ÝÇÑÓí',
+                    'setlang_en'     => 'English',
+                    'setlang_sp'     => 'Espa?ol',
+                    //
+                    'banner_text'    => 'You can earn Bitcoin in this bot.' .PHP_EOL .'%s',
+                    //
+                    'help_intro'     => 'A guide to Satoshi and Bitcoin',
+                    //
+                    'cancel_nth'     => 'There is no operation to cancel.',
+                    'cancel_sth'     => 'Operation' .' %s ' .'canceled.',
+                    //
+                    'myscore_intro'  => 'Your score is calculated according to the people you added to the bot.' .PHP_EOL
+            			                .'Your performance so far :' .PHP_EOL
+                                        .PHP_EOL . 'People added : ' .'%d',
+                    //
+                    'wallet_intro'              => 'In this section you can get your daily Satoshi.' .PHP_EOL .'If your satushis reaches a certain level, you can take the card through the card.' .PHP_EOL .PHP_EOL .'Please select one of the following operations' .PHP_EOL .'Use the' .' /cancel ' .'command to return.',
+                    'wallet_intro_skey'         => 'Please select one of the following operations' .PHP_EOL .'Use the' .' /cancel ' .'command to return.',
+                    'wallet_withdraw_button'    => 'Settlement',
+                    'wallet_getfree_button'     => 'Satoshi Daily',
+                    'wallet_withdraw_intro'     => 'An excuse that we do not give you.',
+                    'wallet_getfree_intro'      => 'According to calculations, today' .'%d' .'Satoshi is yours.' .PHP_EOL .'Use the button below to withdraw.' .PHP_EOL .'Use the' .' /cancel ' .'command to return.',
+                    'wallet_getfree_intro_skey' => 'Use the button below to withdraw.' .PHP_EOL .'Use the' .' /cancel ' .'command to return.',
+                    'wallet_getfree_intro_butt' => 'withdraw',
+                    'wallet_getfree_success'    => '%d' .' Satoshi has been added to your account. ' .PHP_EOL .'Your previous inventory : ' .'%d' .PHP_EOL .'Your current inventory : ' .'%d' .PHP_EOL .'Use the' .'"%s"' .'command to view the item.',
+                    'wallet_getfree_nomember'   => 'To get Satoshi it is necessary to subscribe to the channel.'  .PHP_EOL .'After registering again, press the button below' .PHP_EOL .PHP_EOL .'%s',
+                    'wallet_getfree_gotbefore'  => 'You got your Satoshi today. Please come back tomorrow.',
+                    //
+                );
+                break;
+
+            case 'sp':
+                $strings = array(
+                    'menu_intro'     => 'Men? principal:',
+                    'menu_help'      => 'Ayuda',
+                    'menu_language'  => 'Idioma',
+                    'menu_banner'    => 'Banner',
+                    'menu_wallet'    => 'Recibir / pagar Satoshi',
+                    'menu_myscore'   => 'Mi privilegio',
+                    'menu_undefined' => 'Orden inv?lida' .PHP_EOL . 'Por favor utiliza el men? o ayuda',
+                    //
+                    'welcome'        => 'Para' .'%s' .'Bienvenido a' .json_decode('"\uD83C\uDF39"') .PHP_EOL,
+                    //
+                    'setlang_intro'  => 'Por favor seleccione su idioma.' .PHP_EOL .'Usa el comando' .' /cancel ' .'para regresar.',
+                    'setlang_skey'   => 'Por favor use el siguiente teclado solamente.',
+                    'setlang_set'    => 'La configuraci?n se complet? con éxito.',
+                    'setlang_fa'     => 'ÝÇÑÓí',
+                    'setlang_en'     => 'English',
+                    'setlang_sp'     => 'Espa?ol',
+                    //
+                    'banner_text'    => 'Puedes usar Bitcoin bot.' .PHP_EOL .'%s',
+                    //
+                    'help_intro'     => 'Una gu?a para Satoshi y Bitcoin',
+                    //
+                    'cancel_nth'     => 'No hay operaci?n para cancelar.',
+                    'cancel_sth'     => 'Operaci?n' .' %s ' .'Cancelado.',
+                    //
+                    'myscore_intro'  => 'Su puntuaci?n se calcula de acuerdo con las personas que agreg? al bot.' .PHP_EOL
+            			                .'Tu rendimiento es hasta ahora :' .PHP_EOL
+                                        .PHP_EOL . 'Personas agregadas : ' .'%d',
+                    //
+                    'wallet_intro'              => 'En esta secci?n puedes obtener tu Satoshi diario.' .PHP_EOL .'Si su satushis alcanza cierto nivel, puede llevar la tarjeta a través de la tarjeta.' .PHP_EOL .PHP_EOL .'Seleccione una de las siguientes operaciones' .PHP_EOL .'Use el comando' .' /cancel ' .'para regresar.',
+                    'wallet_intro_skey'         => 'Seleccione una de las siguientes operaciones' .PHP_EOL .'Use el comando' .' /cancel ' .'para regresar.',
+                    'wallet_withdraw_button'    => 'Cuenta de liquidaci?n',
+                    'wallet_getfree_button'     => 'Satoshi Daily',
+                    'wallet_withdraw_intro'     => 'Una excusa que no te damos.',
+                    'wallet_getfree_intro'      => 'Seg?n los c?lculos de hoy,' .' %d ' .'Satoshi es tuyo.' .PHP_EOL .'Usa el siguiente bot?n para eliminarlo.' .PHP_EOL .'Use el comando' .' /cancel ' .'para regresar.',
+                    'wallet_getfree_intro_skey' => 'Usa el siguiente bot?n para eliminarlo.' .PHP_EOL .'Use el comando' .' /cancel ' .'para regresar.',
+                    'wallet_getfree_intro_butt' => 'Retirar',
+                    'wallet_getfree_success'    => '%d' .' Satoshi ha sido agregado a su cuenta. ' .PHP_EOL .'Su inventario anterior : ' .'%d' .PHP_EOL .'Tu inventario actual : ' .'%d' .PHP_EOL .'Use el comando' .'"%s"' .'para ver el inventario.',
+                    'wallet_getfree_nomember'   => 'Para obtener Satoshi es necesario suscribirse al canal.'  .PHP_EOL .'Después de registrarse de nuevo, presione el bot?n de abajo' .PHP_EOL .PHP_EOL .'%s',
+                    'wallet_getfree_gotbefore'  => 'Tienes tu Satoshi hoy. Por favor regresa ma?ana.',
+                    //
+                );
+                break;
+
+            default:
+                # code...
+                break;
+        }
